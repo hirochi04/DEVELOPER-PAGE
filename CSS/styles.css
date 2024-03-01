@@ -20,12 +20,45 @@ body{
 .titulo {
     text-align: center;
     font-size: 3.8rem;
+    color: brown;
 }
 
 .titulo span {
     font-size: 2rem;
+    color: gray;
 }
 
 .navegacion-principal{
     background-color: var(--secundario);
 }
+
+.contenedor {
+    width: 120rem;
+/* una manera de poner los 4 margenes en 4 propiedades 
+    width: 120rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    */
+    /*margin: 0 auto 0 auto; tomando las posiciones de un reloj*/
+    margin: 0 auto; /* el primer valor corresponde a top-bottom y el segundo valor corresponde a right-left*/
+}
+
+.nav-bg {
+
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    padding: 1rem;
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+
+
+
