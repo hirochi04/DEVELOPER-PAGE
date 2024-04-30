@@ -20,6 +20,8 @@ html {
 
 body{
     font-size: 16px;
+    font-family: 'krub', sans-serif;
+    background-image: linear-gradient(to top, var(--gris) 0%, var(--blanco)100%);
 }
 
 h1{
@@ -140,7 +142,30 @@ h1, h2, h3{
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+
+    @media(min-width: 768px) {
+      width: auto;
+    }
 }
+
+.sombra{
+    margin-top: 2rem;
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48) inset;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48) inset;
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48) inset;
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+/*vamos a acomodar mis servicios usando fexbox
+blur
+box shadow
+box model
+moz-box-shadow (es para que sea compatible con otros navegadores en este caso fire fox)
+
+*/
 
 
 /*
