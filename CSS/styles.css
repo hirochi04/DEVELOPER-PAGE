@@ -158,6 +158,50 @@ h1, h2, h3{
     border-radius: 1rem;
 }
 
+/* servicios */
+@media(min-width: 768px) {
+    .servicios{
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; alternativa sensilla*/
+        /*grid-template-columns: 33.3% 33.3% 33.3%; alternativa porcentajes*/
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+  
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio h3{
+    color: var(--secundario);
+    font-weight: normal;
+}
+
+.servicio p{
+    text-align: center;
+    /*interlineado*/
+    line-height: 2;
+}
+
+.iconos{
+    height: 25rem;
+    width: 25rem;
+}
+
+.servicio .iconos{
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*vamos a acomodar mis servicios usando fexbox
 blur
