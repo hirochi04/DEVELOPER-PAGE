@@ -102,34 +102,35 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium illo laudantium delectus quas rem animi minima odit vero dolore. Voluptate perspiciatis officia labore enim tempore corrupti illum ea, id necessitatibus.</p>
     </section>
     </div>
-    </main>
+
 
     <section>
         <h2>Contacto</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>
-                    Contactanos llenando todos los campos
+                    Contáctanos llenando todos los campos
                 </legend>
-                <div>
+                <div class="contenedor-campos">     <!----------------------CONTENEDOR CAMPOS-------------------------->
+                <div class="campo">
                     <label>Nombre</label>
-                    <input type="text" placeholder="Tu nombre">
+                    <input class="input-text" type="text" placeholder="Tu nombre">
                 </div>
-                <div>
-                    <label>Telefono</label>
-                    <input type="tel" placeholder="tu telefono">
+                <div class="campo">
+                    <label>Teléfono</label>
+                    <input class="input-text" type="tel" placeholder="tu telefono">
                 </div>
-                <div>
+                <div class="campo">
                     <label>Correo</label>
-                    <input type="email" placeholder="tu email">
+                    <input class="input-text" type="email" placeholder="tu email">
                 </div>
-                <div>
+                <div class="campo">
                     <label>Mensaje</label>
-                    <textarea></textarea>
+                    <textarea  class="input-text"></textarea>
                 </div>
-
-                <div>
-                    <input type="submit" value="enviar">
+                </div> <!---------------------------------------CIERRE DEL CONTENEDOR CAMPOS---------------------------------->
+                <div class="alinear-derecha flex">
+                    <input class="boton" w-sm-100 type="submit" value="enviar">
                 </div>
 
             </fieldset>
@@ -137,8 +138,8 @@
         </form>
 
     </section>
-
-    <footer>
+</main>
+    <footer class="footer">
     <p>todos los derechos reservados©  Santiago Trejo Developer</p>
     </footer>
 
